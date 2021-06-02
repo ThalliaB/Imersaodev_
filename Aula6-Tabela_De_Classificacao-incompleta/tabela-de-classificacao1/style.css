@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto+Condensed:wght@300;700&display=swap');
+
+* {
+    text-align: center;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    min-height: 400px;
+    background-image: url('https://www.copeltelecom.com/site/wp-content/uploads/2019/12/GettyImages-1036204436.jpg');
+    background-color: #111;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+}
+
+.page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+}
+
+.page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+.page-logo {
+    width: 200px;
+}
+
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+table {
+    padding: 50px;
+    color: red;
+    border: 2px solid white;
+    border-collapse: collapse;
+}
+
+h1 {
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+table {
+    border-top: solid 1px white;
+    color: white;
+    background: #262626;
+    margin-right: auto;
+    margin-left: auto; 
+}
+
+td, th, tr{
+  padding: 4px;
+}
+
+img{
+  width: 50px;
+  height: 50px;
+}
+
+.campo {
+  background: #262626;
+  color: white;
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+#button{
+  position: relative;
+  background: #ffffff;
+  color: black;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+#Botao{
+  padding-bottom: 40px;
+  margin-top: 20px;
+}
+
+#botoes{
+  background: #ffffff;
+  color: black;
+  width: 80px;
+  height: 40px;
+  border-radius: 10px;
+}

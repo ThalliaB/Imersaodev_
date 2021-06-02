@@ -1,0 +1,50 @@
+body {
+  font-family: 'Roboto Mono',monospace;
+  text-align:center;
+  background: url(https://i.imgur.com/JqSSoPW.png) no-repeat center top fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+    background-size: cover;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #804000;
+  margin: 0 0 5px;
+  font-family: Garamond,Baskerville,Baskerville Old Face,Hoefler Text,Times New Roman,serif; font-variant: small-caps;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right:10px;
+}
+
+.menu li{
+  display: inline-block;
+  line-height: 1.5;
+  margin: 0 89px;
+  font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman"
+}
+
+.menu{
+  background-color: #FF6CB5;
+  max-width: 60%;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+#filmes {
+  margin: auto;
+  width: 60%;
+}

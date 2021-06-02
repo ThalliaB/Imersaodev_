@@ -1,0 +1,116 @@
+body {
+    background-color:#DE21BB;
+    font-family: 'Raleway', sans-serif;
+    margin:7em;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cabecalho {
+    background-color: #fff;
+    border-radius: 5px 5px 0 0;
+}
+
+.foto {
+    text-align: center;
+    background-image:url(https://images.unsplash.com/photo-1587947910798-fb4e9a0452cc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+    background-size:cover;
+}
+
+.foto-perfil {
+    width:30%;
+    border-radius: 100%;
+    transform: translateY(-50%);
+    border: 15px solid #fff;
+}
+
+.nome {
+    text-align: center;
+}
+
+.container {
+    padding: 1em;
+}
+
+.principal {
+    background-color: #fff;
+}
+
+.projetos {
+    background-color:#F8DAF5;
+    margin-bottom: 1em;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+.link-lista {
+    color: black;
+    text-decoration: none;
+}
+
+.link-lista:hover {
+    color: darkgoldenrod;
+}
+
+.principal_carbons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.principal_carbon {
+    margin-top: 2em;
+    width: 43%;
+    border-radius: 5px;
+}
+
+.contatos {
+    max-width: 80%;
+    padding-top: 4em;
+    padding-bottom: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subtitulo {
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.contato {
+    background-color: #F8DAF5;
+    border-radius: 5px;
+}
+
+.sobre {
+    text-align: center;
+}
+
+.titulo_sobre {
+    margin-top: 2em;
+    margin-bottom: .5em;
+}
+
+.sobre_carbon {
+    width:90%;
+    border-radius: 5px;
+}
+
+.rodape {
+    background-color: #fff;
+    margin: 0;
+    padding-top: 1em;
+    text-align: center;
+    border-radius: 0 0 5px 5px;
+}
+
+.created {
+    background-color: #000;
+    padding:1em;
+    margin: 0;
+    color: rgba(255, 255, 255, .3);
+}

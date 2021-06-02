@@ -1,0 +1,43 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    min-height: 854px;
+    background-image: url(./Interestelar.jpg);
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 3em;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    font-size: 2.5em;
+    /* margin: 0 0 5px; */
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    font-size:1.5em;
+    margin-top: 1em;
+  }
+
+  h2 {
+    color:#ffffff;
+    position: absolute;
+    font-size:1.5em;
+    font-weight:bold;
+    top: 35vh;
+    left:calc(50vw - 30vw);
+    width: 60vw;
+    text-align:center;
+  }
+
+  h2:hover {
+    font-size:2em;
+    transition: 0.5s ease-in-out;
+  }

@@ -1,0 +1,117 @@
+body {
+  font-family: 'Roboto Mono',monospace;
+  text-align:center;
+  background-image: url('https://www.alura.com.br/assets/img/imersoes/dev-2021/dia-04-aluraflix-e-filmes.png');
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 10px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 150px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  opacity: .5;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right:10px;
+}
+
+body > img {
+  margin: 0 10px;
+}
+
+.allFilmes {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.filmes {
+  display: block;
+  position: relative;
+}
+
+.filmes span {
+  color: #ffffff;
+  display: block;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size:  1.1em;
+  margin: 10px;
+  text-align: center;
+  transition: all 0.5s;
+}
+
+.filmes::before {
+  content: "";
+  display: block;
+  position: absolute;
+  right:0;
+  background-color: #000000;
+  height: 80%;
+  width: 90%;
+  margin-right: 10px;
+  opacity: 0;
+  margin: 0 10px;
+  transition: all 0.5s;
+}
+
+.description {
+  position: relative;
+  bottom: 80px;
+  opacity: 0;
+}
+
+.description > span {
+  display: block;
+}
+.description p {
+  color: #ffffff;
+  line-height: .5em;
+}
+
+.filmes:hover::before {
+  opacity: .7;
+}
+.filmes:hover span {
+  opacity: 1;
+}
+.filmes:hover .description  {
+  opacity: 1;
+}
+
+.filmes > img{
+  margin: 0 10px;
+}
+
+@media screen and (max-width:767px) {
+
+  .allFilmes {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}

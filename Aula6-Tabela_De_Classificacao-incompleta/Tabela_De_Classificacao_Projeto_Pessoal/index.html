@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Tags meta -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>TABELA DE CLASSIFICACAO</title>
+
+    <!-- links -->
+    <link rel="stylesheet" href="../../assets/reset.css">
+    <link rel="stylesheet" href="../../assets/normalize.css">
+    <link rel="stylesheet" href="../ass/style.css">
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body class="container">
+    <h1>TABELA DE CLASSIFICAÇÃO</h1>
+    
+    <section class="Botoes">
+        <input type="text" class="campo" id="nome" placeholder="Digite seu nome aqui">
+        <!-- <input type="url" class="campo" id="foto" placeholder="Digite aqui a url da sua foto"> -->
+        <button onClick="adicionaJogador()" id="botao" class="botao">Adicionar jogador(a)</button>
+    </section>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Vitórias</th>
+                <th>Empates</th>
+                <th>Derrotas</th>
+                <th>Pontos</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody id="tabelaJogadores">
+            <!--        <tr>
+        <td>Paulo</td>
+        <td>2</td>
+        <td>1</td>
+        <td>1</td>
+        <td>7</td>
+        <td><button onClick="adicionarVitoria()">Vitória</button></td>
+        <td><button onClick="adicionarEmpate()">Empate</button></td>
+        <td><button onClick="adicionarDerrota()">Derrota</button></td>
+      </tr>
+      <tr>
+        <td>Rafa</td>
+        <td>1</td>
+        <td>4</td>
+        <td>2</td>
+        <td>7</td>
+        <td><button onClick="adicionarVitoria()">Vitória</button></td>
+        <td><button onClick="adicionarEmpate()">Empate</button></td>
+        <td><button onClick="adicionarDerrota()">Derrota</button></td>
+      </tr> -->
+        </tbody>
+    </table>
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
